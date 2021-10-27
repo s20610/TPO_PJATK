@@ -34,7 +34,7 @@ public class Service {
 
      String getWeather(String miasto) {
         city = miasto;
-         String apiKey = "c8b55fa945027da5eaccfd69b2a67a27";
+         String apiKey = "APIKEY";
          String url1 = "http://api.openweathermap.org/data/2.5/weather?q=";
          String url2 = "&appid=";
          String fullURL = url1+miasto+","+countryCode+url2+apiKey;
